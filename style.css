@@ -117,3 +117,42 @@ footer {
   text-align: center;
   padding: 20px;
 }
+/* NAVBAR */
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background: rgba(0,0,0,0.8);
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 10%;
+  align-items: center;
+  z-index: 1000;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  color: gold;
+}
+
+/* فاصله برای اینکه محتوا زیر منو نره */
+.hero {
+  margin-top: 60px;
+}
+
+/* Smooth Scroll */
+html {
+  scroll-behavior: smooth;
+}
