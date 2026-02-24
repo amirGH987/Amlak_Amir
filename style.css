@@ -6,8 +6,8 @@
 }
 
 body {
-  background: #f5f5f5;
-  color: #333;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #fff;
   line-height: 1.8;
 }
 
@@ -45,7 +45,7 @@ body {
 }
 
 .btn {
-  background: gold;
+  background: linear-gradient(45deg, #d4af37, #f6e27a);
   color: #000;
   padding: 12px 30px;
   text-decoration: none;
@@ -54,6 +54,9 @@ body {
   transition: 0.3s;
 }
 
+.btn:hover {
+  transform: scale(1.05);
+}
 .btn:hover {
   background: #fff;
 }
@@ -229,4 +232,11 @@ html {
   section {
     padding: 60px 5%;
   }
+}
+.service-box,
+.property-card {
+  backdrop-filter: blur(15px);
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.15);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
 }
